@@ -3,7 +3,7 @@ package chapter_09.section_9_1;
 public class PlanAi {
     public static void main(String[] args) {
         int totalPages = 480;
-        int dayCount = 0;
+        int dayCount = 30;
 
         if (dayCount > 0) {
             System.out.println("1日あたり " + (totalPages / dayCount) + " ページです");
